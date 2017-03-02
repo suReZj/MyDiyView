@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sure.diyview.TopBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="40dp"
+    android:id="@+id/topBar"
+
+    custom:leftBackground="#BFBFBF"
+    custom:leftText="Back"
+    custom:leftTextColor="#FFFFFF"
+
+    custom:rightBackground="#BFBFBF"
+    custom:rightText="More"
+    custom:rightTextColor="#FFFFFF"
+    custom:title="自定义标题"
+    custom:titleTextColor="#123412"
+    custom:titleTextSize="15sp"
+    >
+
+</sure.diyview.TopBar>
