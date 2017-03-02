@@ -10,11 +10,8 @@ import android.graphics.Shader;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-/**
- * Created by dell88 on 2017/3/2 0002.
- */
 
-public class MyTextView extends TextView {
+public class MyTextView extends TextView {//具有闪动文字效果的TextView
     private int mViewWidth=0;
     private int mTranslate=0;
     private LinearGradient mLinearGradient;
