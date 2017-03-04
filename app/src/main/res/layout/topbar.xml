@@ -4,11 +4,11 @@
     android:layout_width="match_parent" android:layout_height="40dp"
     android:id="@+id/topBar"
 
-    custom:leftBackground="#BFBFBF"
+    custom:leftBackground="@drawable/blue_button"
     custom:leftText="Back"
     custom:leftTextColor="#FFFFFF"
 
-    custom:rightBackground="#BFBFBF"
+    custom:rightBackground="@drawable/blue_button"
     custom:rightText="More"
     custom:rightTextColor="#FFFFFF"
     custom:title="自定义标题"

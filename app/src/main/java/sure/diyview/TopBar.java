@@ -119,7 +119,6 @@ public class TopBar extends RelativeLayout {
         // 按钮的点击事件，不需要具体的实现，
         // 只需调用接口的方法，回调的时候，会有具体的实现
         mRightButton.setOnClickListener(new OnClickListener() {
-
             @Override
             public void onClick(View v) {
                 mListener.rightClick();
@@ -127,7 +126,6 @@ public class TopBar extends RelativeLayout {
         });
 
         mLeftButton.setOnClickListener(new OnClickListener() {
-
             @Override
             public void onClick(View v) {
                 mListener.leftClick();
