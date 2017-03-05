@@ -5,16 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
-    <include layout="@layout/topbar"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="啦啦啦"/>
-    <sure.diyview.MyTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="啦啦啦"/>
-    <sure.diyview.VolumeView
+    <sure.diyview.DragView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>
